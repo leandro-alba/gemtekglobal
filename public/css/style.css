@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
-    font-family: 'Catamaran', sans-serif;
+    /* font-family: 'Catamaran', sans-serif; */
+}
+/* body style */
+.mane-font{
+  font-family: 'Catamaran', sans-serif;
 }
 /* 
 https://getbootstrap.com/docs/4.0/content/typography/
@@ -39,7 +43,7 @@ html {
   border: solid 1px red;
 }
 .footer--style{
-  background-color: black;
+  background-color: #1B1B1B;
   color: white;
 }
 /* navbar */
@@ -78,4 +82,28 @@ html {
 .letter-spacing-end{
   margin-left: 3px;
   margin-right: 10px;
+}
+/* About Us style*/
+/* img contain inside div */
+.about-us-img-2{
+  width: 293px;
+  height: 334px;
+  /* object-fit: contain;
+  overflow: hidden; */
+}
+.about-us-img-1{
+  width: 293px;
+  height: 296px;
+  /* object-fit: contain;
+  overflow: hidden; */
+}
+.about-us-bg{
+  background-color: #45EC5C;
+}
+.indust-green-bg h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+.blockier-font{
+  font-family: 'Oswald', sans-serif;
 }
