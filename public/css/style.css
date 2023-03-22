@@ -132,3 +132,7 @@ html {
 .arial-font{
   font-family: Arial, Helvetica, sans-serif;
 }
+/* sc1000 aircraft section style */
+.sc1000-aircraft-font-color{
+  color: #000053;
+}
