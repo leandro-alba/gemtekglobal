@@ -122,3 +122,13 @@ html {
 .anton-font{
   font-family: 'Anton', sans-serif;
 }
+/* safe-care-sc-1000-spec-sheet style */
+.safe-care-sc1000-img{
+  width: 60%;
+  height: 70%;
+  object-fit: contain;
+  overflow: hidden;
+}
+.arial-font{
+  font-family: Arial, Helvetica, sans-serif;
+}
