@@ -107,3 +107,18 @@ html {
 .blockier-font{
   font-family: 'Oswald', sans-serif;
 }
+/* Product page style */
+/* .product-img-s1{
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+  overflow: hidden;
+} --> just use bootstrap's class='img-fluid'
+*/
+.product-li-s1{
+  align-items: center;
+  justify-content: center;
+}
+.anton-font{
+  font-family: 'Anton', sans-serif;
+}
