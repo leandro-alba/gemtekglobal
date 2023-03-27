@@ -36,6 +36,15 @@ html {
 .font-size-xl { 
     font-size: 1.6rem; 
 }
+.ssuperscript{
+  vertical-align: super;
+}
+.ssubscript{
+  vertical-align: sub;
+}
+.ttimes-new-roman{
+  font-family: 'Times New Roman', Times, serif;
+}
 .logo--coloring{
   color: #2EB456 !important;
 }
@@ -144,4 +153,8 @@ html {
 }
 .sc1000-aircraft-gemtek-color{
   color: #0F7001;
+}
+/* sc-1000 aqueous cleaner style */
+.sc-1000-aqueous-font-size{
+  font-size: 1.1rem; 
 }
