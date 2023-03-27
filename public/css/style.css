@@ -136,3 +136,12 @@ html {
 .sc1000-aircraft-font-color{
   color: #000053;
 }
+.sc1000-aircraft-list-style{
+  list-style-type: square;
+}
+.sc1000-aircraft-end-font{
+  font-size: 12px;
+}
+.sc1000-aircraft-gemtek-color{
+  color: #0F7001;
+}
