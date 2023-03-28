@@ -170,3 +170,10 @@ html {
   object-fit: contain;
   overflow: hidden;
 }
+/* transportation style */
+.transportation-img{
+  width: 525px;
+  height: 217px;
+  object-fit: contain;
+  overflow: hidden;
+}
