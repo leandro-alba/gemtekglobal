@@ -163,3 +163,10 @@ html {
   float: left;
   list-style-type: square;
 }
+/* oil-gas style */
+.oil-gas-img{
+  width: 407px;
+  height: 299px;
+  object-fit: contain;
+  overflow: hidden;
+}
