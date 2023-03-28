@@ -158,3 +158,8 @@ html {
 .sc-1000-aqueous-font-size{
   font-size: 1.1rem; 
 }
+/* sc-SuperSolv safety solvent style */
+.sc-supersolv-li-style{
+  float: left;
+  list-style-type: square;
+}
