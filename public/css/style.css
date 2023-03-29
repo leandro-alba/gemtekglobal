@@ -177,3 +177,40 @@ html {
   object-fit: contain;
   overflow: hidden;
 }
+/* military-gov-installations style */
+.mil-gov-install-img-1{
+  width: 624px;
+  height: 504px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.mil-gov-install-img-2{
+  width: 624px;
+  height: 465px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.mil-gov-install-img-3{
+  width: 624px;
+  height: 263px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.mil-gov-install-img-4{
+  width: 624px;
+  height: 159px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.mil-gov-install-img-5{
+  width: 624px;
+  height: 225px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.mil-gov-install-img-6{
+  width: 624px;
+  height: 193px;
+  object-fit: contain;
+  overflow: hidden;
+}
