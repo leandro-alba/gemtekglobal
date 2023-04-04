@@ -249,6 +249,11 @@ html {
   border-left: 8px white solid;
   border-right: 8px white solid;
 }
+.home-li-3{
+  float: left;
+  padding-left: 37px;
+  padding-right: 37px;
+}
 .brightred{
   color: #FF3131;
 }
