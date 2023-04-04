@@ -221,3 +221,14 @@ html {
   object-fit: contain;
   overflow: hidden;
 }
+/* home page style */
+.home-bg-1{
+  background: url(https://i0.wp.com/gemtekchina.com/wp-content/uploads/2020/07/Gemtek-Background-Logo-6.jpeg?w=1880&ssl=1);
+}
+/* home page style */
+.home-li{
+  float: left;
+}
+.brightred{
+  color: #FF3131;
+}
