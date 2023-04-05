@@ -225,6 +225,57 @@ html {
 .huge-letters{
   font-size: 4rem;
 }
+/* video style start */
+.video-container {
+  height: 540px;
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+z-index: 1;
+position: relative;
+text-align: center;
+color: #dc0000;
+padding: 10px;
+}
+/* video style end */
+/* home page style */
+.home-invisi-li{
+  color:  rgba(255, 255, 255, 0) !important;;
+}
+.home-title-s0{
+    color: #FFFFFF;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.home-title-s1{
+  text-shadow: 0px -1px 5px #FFFFFF;
+  letter-spacing: 3px;
+
+}
+.home-title-s2{
+    color: #000000;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 7.5px;
+    text-shadow: -5px 0px 3px rgba(0,0,0,0.3)
+}
 .home-bg-1{
   background: url(https://i0.wp.com/gemtekchina.com/wp-content/uploads/2020/07/Gemtek-Background-Logo-6.jpeg?w=1880&ssl=1);
   
@@ -257,6 +308,74 @@ html {
 .brightred{
   color: #FF3131;
 }
+.bblack-text{
+  color: black !important;
+}
 .blue-border-lol{
   border-top: 28px solid #003E53;
+}
+.white-border{
+  border-top: 8px white solid;
+  border-left: 8px white solid;
+  border-right: 8px white solid;
+}
+.white-border-outer-left{
+  border-top: 8px white solid;
+  border-left: 16px white solid;
+  border-right: 8px white solid;
+}
+.white-border-outer-right{
+  border-top: 8px white solid;
+  border-left: 8px white solid;
+  border-right: 16px white solid;
+}
+.tiny-font{
+  font-size: 10px;
+}
+.divvy-size1{
+  height: 611px;
+}
+.wechat-logo{
+  color: #10D21C;
+  font-size: 50px;
+}
+.skype-logo{
+  color: #10A0DD;
+  font-size: 50px;
+}
+/* carousel style */
+/* .carousel-indicators li {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #0000ff;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+  background-color: #ffff99;
+} */
+.carousel-indicators li{
+    background-color: #000 !important;
+    /* border-radius: 15px !important;
+    height: 15px !important; */
+}
+
+.carousel-indicators .active {
+    background-color: #3799FC !important;
+    /* border-radius: 15px !important;
+    height: 15px !important; */
+}
+.carousel-control-prev-icon{
+  background-color: rgba(128, 128, 128, 0.582) !important;
+}
+.carousel-control-next-icon{
+  background-color: rgba(128, 128, 128, 0.582) !important;
 }
