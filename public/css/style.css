@@ -30,6 +30,64 @@ html {
       font-size: 1.6rem;
     }
   }
+/* getbootstrap doc link end */
+/* media queries start */
+@media screen and (max-width: 750px) {
+  .home-title-s0 {
+    font-size: 2rem !important;
+  }
+}
+/* @media screen and (min-width: 481px ) {
+  .home-title-s0 {
+    font-size: 3.5rem ;
+  }
+} */
+@media screen and (max-width: 767px) {
+  .mil-gov-install-img-1 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mil-gov-install-img-2 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mil-gov-install-img-3 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mil-gov-install-img-4 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mil-gov-install-img-5 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mil-gov-install-img-6 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .transportation-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media screen and (max-width: 442px) {
+  .oil-gas-img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .embedded-pdf {
+    width: 100% !important;
+    height: 850px !important;
+  }
+}
+
+/* media queries end */
 .font-size-l { 
     font-size: 1.2rem; 
 }
@@ -124,6 +182,14 @@ html {
   overflow: hidden;
 } --> just use bootstrap's class='img-fluid'
 */
+.product-title{
+    color: #000000;
+    /* font-family: "Tahoma", Sans-serif; */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6.7px;
+    text-shadow: 0px 11px 10px rgba(0,0,0,0.3);
+}
 .product-li-s1{
   align-items: center;
   justify-content: center;
