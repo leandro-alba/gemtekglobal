@@ -10,3 +10,17 @@ console.log(`my name is Leandro, I'm a software engineer based in the DMV area. 
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
+
+//animations for home page, when user reaches certain section, the animation will run:
+// document.addEventListener('scroll', function(e) {
+//     const el = document.querySelector('#myDiv');
+//     const scrollPosition = window.scrollY;
+  
+//     if(el == scrollPosition) {
+//       document.querySelector(".hihi").classList.add("animate__animated animate__fadeInDown animate__delay-custom3");
+//      }
+//   });
+// document.querySelector('.hihi').addEventListener('onClick', runThingy());
+// function runThingy(){
+//     document.querySelector('.hihi').classList.add('animate__animated', 'animate__fadeInDown', 'animate__delay-2s');
+// }
