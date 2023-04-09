@@ -345,13 +345,15 @@ padding: 10px;
 }
 .home-bg-1{
   background: url(https://i0.wp.com/gemtekchina.com/wp-content/uploads/2020/07/Gemtek-Background-Logo-6.jpeg?w=1880&ssl=1);
-  
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 .home-bg-2{
   background: url(https://gemtekchina.com/wp-content/uploads/2020/07/lucie-hosova-p01AsX0WrBE-unsplash.jpg) fixed;
 }
 .home-bg-3{
   background: url(https://gemtekchina.com/wp-content/uploads/2020/07/Gemtek-Background-Logo-3.jpeg) fixed;
+  background-size: cover;
 }
 .home-bg-4{
   background: #E9E9E9;
@@ -470,3 +472,14 @@ padding: 10px;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
+/* ---=---===---===-==-=- animations/keyframes/transitions Start-=-=-=-=-=-=-=-=-=-=-= */
+.animate__delay-custom1{
+  animation-delay: 0.25s;
+}
+.animate__delay-custom2{
+  animation-delay: 0.5s;
+}
+.animate__delay-custom3{
+  animation-delay: 1s;
+}
+/* ---=---===---===-==-=- animations/keyframes/transitions End -=-=-=-=-=-=-=-=-=-=-= */
