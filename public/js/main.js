@@ -10,28 +10,4 @@ console.log(`my name is Leandro, I'm a software engineer based in the DMV area. 
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
-
-//animations for home page, when user reaches certain section, the animation will run:
-// document.addEventListener('scroll', function(e) {
-//     const el = document.querySelector('#myDiv');
-//     const scrollPosition = window.scrollY;
-  
-//     if(el == scrollPosition) {
-//       document.querySelector(".hihi").classList.add("animate__animated animate__fadeInDown animate__delay-custom3");
-//      }
-//   });
-// document.querySelector('.hihi').addEventListener('onClick', runThingy());
-// function runThingy(){
-//     document.querySelector('.hihi').classList.add('animate__animated', 'animate__fadeInDown', 'animate__delay-2s');
-// }
-
-// new Swiper('#swiper-1', {
-//     // Optional parameters
-//     direction: 'horizontal',
-//     loop: true,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//     },
-// });
+function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'af,sq,am,ar,hy,az,eu,be,bn,bs,bg,ca,ceb,ny,zh-CN,zh-TW,co,hr,cs,da,nl,en,eo,et,tl,fi,fr,fy,gl,ka,de,el,gu,ht,ha,haw,iw,hi,hmn,hu,is,ig,id,ga,it,ja,jw,kn,kk,km,ko,ku,ky,lo,la,lv,lt,lb,mk,mg,ml,ms,mt,mi,mr,mn,my,ne,no,ps,fa,pl,pt,pa,ro,ru,sr,sn,st,sd,si,sk,sl,sm,gd,so,es,su,sw,sv,tg,ta,te,th,tr,uk,ur,uz,vi,cy,xh,yi,yo,zu', autoDisplay: false}, 'google_language_translator');}
