@@ -24,3 +24,14 @@ function googleTranslateElementInit() {
 // function runThingy(){
 //     document.querySelector('.hihi').classList.add('animate__animated', 'animate__fadeInDown', 'animate__delay-2s');
 // }
+
+// new Swiper('#swiper-1', {
+//     // Optional parameters
+//     direction: 'horizontal',
+//     loop: true,
+  
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//     },
+// });

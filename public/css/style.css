@@ -431,22 +431,39 @@ padding: 10px;
   margin: 10px;
   background-color: #ffff99;
 } */
-.carousel-indicators li{
-    background-color: #000 !important;
-    /* border-radius: 15px !important;
-    height: 15px !important; */
+.carousel-indicators button.zxc{
+  background-color: #575151;
 }
-
-.carousel-indicators .active {
-    background-color: #3799FC !important;
-    /* border-radius: 15px !important;
-    height: 15px !important; */
+.carousel-indicators button.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+  margin-top: 11px !important;
+	border-radius: 50%;
+	border: none;
+ 
 }
-.carousel-control-prev-icon{
-  background-color: rgba(128, 128, 128, 0.582) !important;
+.carousel-indicators button{
+  width: 12px !important;
+	height: 12px !important;
+	margin: 1px 3px !important;
+	border-radius: 50% !important;
+	border: none;
+  cursor: pointer;
 }
-.carousel-control-next-icon{
-  background-color: rgba(128, 128, 128, 0.582) !important;
+.carousel-indicators button {	
+	color: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators button.active {	
+	background: #3799FC !important;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.indicator-bg{
+  background-color: #575151;
+  border-radius: 40%;
+  width: fit-content;
 }
 /* scroll to the top btn */
 #scroll--top{
@@ -473,6 +490,7 @@ padding: 10px;
     box-sizing: content-box;
 }
 /* ---=---===---===-==-=- animations/keyframes/transitions Start-=-=-=-=-=-=-=-=-=-=-= */
+/* https://animate.style/#usage  */
 .animate__delay-custom1{
   animation-delay: 0.25s;
 }
@@ -482,5 +500,12 @@ padding: 10px;
 .animate__delay-custom3{
   animation-delay: 1s;
 }
+/* for home page I used -> https://michalsnik.github.io/aos/  thats where all those data-aos attributes come from*/
 
 /* ---=---===---===-==-=- animations/keyframes/transitions End -=-=-=-=-=-=-=-=-=-=-= */
+/* form style start*/
+form button{
+  color: white !important;
+  letter-spacing: .1rem;
+  font-family: "Tahoma", Sans-serif;
+}
