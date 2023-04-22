@@ -2,7 +2,7 @@
     box-sizing: border-box;
     /* font-family: 'Catamaran', sans-serif; */
 }
-/* body style */
+
 .mane-font{
   font-family: 'Catamaran', sans-serif;
 }
@@ -79,6 +79,9 @@ html {
     width: 100% !important;
     height: 100% !important;
   }
+  .logo--font{
+    font-size: 1.5rem !important;
+  }
 }
 @media screen and (max-width: 1200px) {
   .embedded-pdf {
@@ -104,7 +107,8 @@ html {
   font-family: 'Times New Roman', Times, serif;
 }
 .logo--coloring{
-  color: #2EB456 !important;
+  /* color: #2EB456 !important; */
+  color: #198754 !important;
 }
 .test-color{
   border: solid 1px red;
@@ -119,6 +123,11 @@ html {
 }
 .navbar-brand{
   font-weight: bold;
+}
+div a.logo--font{
+  font-size: 3rem ;
+  font-style: italic;
+  font-family: Tahoma, Verdana, sans-serif;
 }
 .font-nav{
   font-size: 40px !important;
